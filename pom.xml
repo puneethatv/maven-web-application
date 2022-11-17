@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://52.66.206.179:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.35.254:9000/</sonar.host.url>
                 <sonar.login>squ_77e8050f9cd7e31e73ecbeb69cb2435a1fda956d</sonar.login>
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,12 +97,12 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <url>http://13.233.71.124:1990/puneethatv/repository/citibank-release/</url>
+	      <url>http://172.31.45.246:1990/puneethatv/repository/citibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <url>http://13.233.71.124:1990/puneethatv/repository/citibank-snapshot/</url>
+	      <url>http://172.31.45.246:1990/puneethatv/repository/citibank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

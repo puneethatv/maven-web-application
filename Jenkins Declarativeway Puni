@@ -58,6 +58,15 @@ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@17
 */
 
 }//stages closing
+post {
+  
+  success {
+  sendSlackNotifications(currentBuild.result) 
+  }
+  failure {
+    sendSlackNotifications(currentBuild.result)
+  }
+}
 }//pipeline closing 
 
 //Send Slacknotification to snippet / Function for Slacknotification

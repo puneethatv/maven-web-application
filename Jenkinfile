@@ -12,6 +12,7 @@ try {
     
     //Checkout code state
     stage('Checkcode'){
+        sendSlackNotifications("STARTED")
         git branch: 'development', credentialsId: 'df09d42f-0045-4490-910d-9d0324019e93', url: 'https://github.com/puneethatv/maven-web-application.git'
     }
     

@@ -49,7 +49,7 @@ try {
 	
 }//node closing
 
-/*
+
 //Send Slacknotification to snippet / Function for Slacknotification
 
 def sendSlackNotifications(String buildStatus = 'STARTED') {
@@ -77,4 +77,4 @@ def sendSlackNotifications(String buildStatus = 'STARTED') {
   // Send notifications
   slackSend (color: colorCode, message: summary)
 }
-*/
+

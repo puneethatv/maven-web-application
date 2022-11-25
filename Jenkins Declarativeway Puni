@@ -46,6 +46,7 @@ steps{
 sh "mvn clean deploy"
 }
 }
+*/
 
 //Deploy application into Tomcat Server
 stage('DeployApp'){
@@ -55,7 +56,6 @@ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@17
 }
 }
 }
-*/
 
 }//stages closing
 post {

@@ -26,12 +26,12 @@ try {
 	     sh "${mavenHome}/bin/mvn sonar:sonar"
 	}
   
-	
+	/*
 	//Upload Artifacts Into Nexus
 	stage('UploadArtifactsIntoNexus'){
 	     sh "${mavenHome}/bin/mvn deploy"
 	}
-	
+	*/
 	
 	//Deploy application into Tomcat Server
 	stage('DeployApp'){

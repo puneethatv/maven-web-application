@@ -40,14 +40,14 @@ sh "mvn clean sonar:sonar"
 }
 }
 
-
+/*
 //Upload Artifacts Into Nexus
 stage('UploadArtifactsInNexus'){
 steps{
 sh "mvn clean deploy"
 }
 }
-
+*/
 
 //Deploy application into Tomcat Server
 stage('DeployApp'){
